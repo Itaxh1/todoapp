@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
 .task {
-    background: #f4f4f4;
+    background: #3B3B47;
+    border-radius: 10px;
     margin: 5px;
     padding: 10px 20px;
     cursor: pointer;
+    font-family: 'Poppins';
   }
   
   .task.reminder {
@@ -10,8 +14,13 @@
   }
   
   .task h3 {
+    color: aliceblue;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  
+  p.dayy{
+    color: #64f3f6;
+    border-radius: 25px;
+    background-color: #2B393F;
+  }

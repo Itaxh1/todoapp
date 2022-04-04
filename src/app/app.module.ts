@@ -13,6 +13,7 @@ import { TaskItemComponent } from './component/task-item/task-item.component';
 import { AddTaskComponent } from './component/add-task/add-task.component';
 import { AboutComponent } from './component/about/about.component';
 import { FooterComponent } from './component/footer/footer.component';
+import { DatePipeComponent } from './component/date-pipe/date-pipe.component';
 
 const appRoutes: Routes = [
   { path: '', component: TasksComponent },
@@ -29,6 +30,7 @@ const appRoutes: Routes = [
     AddTaskComponent,
     AboutComponent,
     FooterComponent,
+    DatePipeComponent,
   ],
   imports: [
     BrowserModule,

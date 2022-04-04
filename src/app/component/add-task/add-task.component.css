@@ -1,4 +1,19 @@
 .add-form {
     margin-bottom: 40px;
   }
+label.task{
+  color: aliceblue;
+}
+label.time{
+  color: aliceblue;
+}
+
+label.rem{
+  color: aliceblue;
+}
+input[type=submit] {
   
+  background-color:#3267DB;
+  color: aliceblue;
+  border:none;
+}

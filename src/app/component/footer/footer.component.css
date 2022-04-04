@@ -1,4 +1,12 @@
 footer {
   margin-top: 30px;
   text-align: center;
+
+}
+p.foo{
+
+  color:aliceblue;
+}
+a.foo2{
+  color:aliceblue;
 }
